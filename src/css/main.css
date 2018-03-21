@@ -1,0 +1,11 @@
+body {
+    padding-top: 5rem;
+}
+
+main {
+    padding: 2rem 1.5rem;
+}
+
+#anagrams {
+    padding: 3rem 0;
+}
