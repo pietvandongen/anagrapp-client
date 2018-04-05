@@ -1,0 +1,30 @@
+{
+  "name": "anagrapp-client",
+  "version": "1.0.0",
+  "description": "The web client for Anagrapp.",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run-script clean && copyfiles -f ./src/**/* dist",
+    "test": "npm run-script build",
+    "start": "http-server dist -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietvandongen/anagrapp-client.git"
+  },
+  "author": "Piet van Dongen",
+  "contributors": [
+    "Piet van Dongen"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pietvandongen/anagrapp-client/issues"
+  },
+  "homepage": "https://github.com/pietvandongen/anagrapp-client#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "copyfiles": "^2.0.0",
+    "http-server": "^0.11.1",
+    "rimraf": "^2.6.2"
+  }
+}
